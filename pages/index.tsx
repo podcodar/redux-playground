@@ -9,7 +9,6 @@ const Home: NextPage = () => {
 
   const handleSubmit: FormEventHandler<HTMLFormElement> = (e) => {
     e.preventDefault();
-    // TODO: fetch github data
 
     fetchProfile(username);
   };
